@@ -80,6 +80,63 @@ body {
     display: none;
  } 
 
+ .hero {
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+     url(https://media.istockphoto.com/id/2228164542/photo/a-mystical-woman-dressed-in-a-beautiful-red-cloak-surrounded-by-a-lush-green-forest.webp?a=1&b=1&s=612x612&w=0&k=20&c=RvGaH1e9i2KxzfZUFBhBNgK9wskAUA7eKQ8Ydy4nhzk=) center /cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.hero-content {
+    color: white;
+    text-align: center;
+
+
+}
+.hero-content h1 {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.hero-content p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    
+}
+.hero-content span {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+.main-grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    padding: 20px;
+  
+}
+.section-1 {
+    margin-top: 7rem;
+}
+.section-1 .container h1 {
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 63px;
+    color: black;
+} 
+.main-grid1 p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: #717275;
+
+}
+
 
 
 
@@ -148,4 +205,9 @@ body {
     }
     .container h1 {
     color: black;}
+
+    .main-grid1 {
+    display: grid;
+    grid-template-columns: 1fr ;
+}
  }
